@@ -56,7 +56,7 @@ public class FrameBarang extends javax.swing.JFrame {
     public FrameBarang() {
         initComponents();
         setModeltabel();
-        
+        awal();
         view_data();
         
        tblBarang.getSelectionModel().addListSelectionListener(new ListSelectionListener() {
